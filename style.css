@@ -15,28 +15,44 @@ body {
 
 .sec1 {
     width: 495px;
-    height: 300px;
+    height: 250px;
     background: #ebebeb;
     text-align: center;
     margin: 5px;
-    float: left;
+    position: absolute;
 }
 
 #asideinfo {
     background: #ebebeb;
     float: right;
-    width: 450px;
-    margin: 10px;
+    width: 425px;
+    margin: 5px;
+    padding: 50px;
     text-align: center;
 }
 
 #art1 {
-    float: left;
+    position: relative;
     background: #777;
     color: #ebebeb;
     text-align: center;
+    padding: 30px;
+    width: 300px;
 }
 
+#heading {
+    background: #ebebeb;
+    position: relative;
+    width: 200px;
+    padding: 20px;
+}
+
+#textpara {
+    background: #ebebeb;
+    position: relative;
+    width: 200px;
+    padding: 20px;
+}
 
 .clearfix::after {
     clear: both;
