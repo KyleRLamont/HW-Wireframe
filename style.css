@@ -15,45 +15,60 @@ body {
 
 .sec1 {
     width: 495px;
-    height: 250px;
+    height: 200px;
+    padding: 20px;
     background: #ebebeb;
     text-align: center;
     margin: 5px;
-    position: absolute;
+    position: fixed;
 }
 
 #asideinfo {
     background: #ebebeb;
     float: right;
-    width: 425px;
+    overflow: auto;
+    width: 38%;
     margin: 5px;
-    padding: 50px;
+    padding: 20px;
+    height: 200px;
     text-align: center;
 }
 
 #art1 {
-    position: relative;
+    position: absolute;
     background: #777;
     color: #ebebeb;
     text-align: center;
-    padding: 30px;
-    width: 300px;
+    padding: 10px;
+    width: 490px;
+    height: 150px;
+    bottom: 270px;
+    left: 25px;
 }
 
 #heading {
     background: #ebebeb;
-    position: relative;
-    width: 200px;
-    padding: 20px;
+    position: absolute;
+    width: 455px;
+    padding: 10px;
+    text-align: center;
+    bottom: 325px;
+    left: 40px
 }
 
 #textpara {
     background: #ebebeb;
-    position: relative;
+    position: absolute;
     width: 200px;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 455px;
+    bottom: 275px;
+    left: 40px;
 }
 
 .clearfix::after {
+    content: "";
     clear: both;
+    display: table;
 }
